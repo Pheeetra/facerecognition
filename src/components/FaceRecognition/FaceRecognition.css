@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.ma {
+  margin: auto;
+}
+
+.absolute {
+  position: relative;
+  width: 500px; /* Fixed width for the container */
+  height: auto; /* Allow height to adjust based on content */
+}
+
+.bounding-box {
+  position: absolute;
+  border: 2px solid #149df2;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  pointer-events: none; /* Prevent the bounding box from intercepting mouse events */
+}
+
+#inputimage {
+  width: 100%; /* Ensure image scales properly within the container */
+  height: auto;
+}
